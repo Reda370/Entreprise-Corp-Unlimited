@@ -1,0 +1,34 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*~
+*.swp
+*.tmp
+
+# Editor directories
+.vscode/
+.idea/
+
+# OS generated files
+ehthumbs.db
+Icon?
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Node
+node_modules/
+
+# Terraform
+.terraform/
+
+# Misc
+*.bak
+*.orig
