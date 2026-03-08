@@ -51,20 +51,4 @@ Projet académique de déploiement d'une infrastructure hybride (Linux/Windows) 
 - Synchronisation mails, contacts, calendriers et fichiers
 - Accessibilité interne/externe via redirection de ports et certificats
 
----
 
-## 🛠️ Exécution du script d’initialisation
-Pour créer l’arborescence et le `.gitignore` :
-
-```bash
-chmod +x setup_repo.sh
-./setup_repo.sh
-```
-
-> ⚠️ Sous Windows, exécutez-le depuis Git Bash, WSL (Ubuntu) ou un terminal compatible Bash.
-
----
-
-## 📌 Notes
-- Ce dépôt reste un squelette : toutes les configurations spécifiques (templates de VM, scripts d’installation, playbooks) doivent être ajoutées dans les dossiers dédiés.
-- Pensez à versionner vos configurations (ex. `configs/` en git) et à chiffrer les secrets (Vault, Ansible Vault, etc.).
